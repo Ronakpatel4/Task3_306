@@ -57,7 +57,7 @@ repeat		LDI R1, buffer
 		ADD R4, R3, #0
 		ADD R3, R2, #0
 		ADD R2, R1, #0
-		LD R1, letu
+		LD R1, letu			; Begin checking for End Codon
 		ADD R1, R1, R4
 		BRnp run
 		LD R1, leta
