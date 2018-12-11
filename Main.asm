@@ -76,7 +76,7 @@ checkmore	LD R1, letg
 stop		STI R2, ddr		
 		TRAP x25
 run		STI R2, ddr
-		BRnzp repeat
+		BRnzp repeat		; Get next character
 leta		.FILL x-41		; Initialize all the negative letters and polling addresses
 letc		.FILL x-43
 letg		.FILL x-47
