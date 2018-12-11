@@ -43,7 +43,7 @@ loop		LDI R1, buffer		; Load character into R1
 		LD R5, pipe
 		STI R5, ddr
 		BRnzp code
-notstart	STI R1, ddr
+notstart	STI R1, ddr		;Display input character
 		BRnzp loop
 
 
