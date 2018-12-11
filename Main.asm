@@ -26,7 +26,7 @@
 		STI R0, buffer		; Loop for checking new char in buffer
 loop		LDI R1, buffer		; Load character into R1
 		BRz loop		
-		STI R0, buffer
+		STI R0, buffer		;Store 0 to buffer once we've read value from buffer
 		ADD R4, R3, #0
 		ADD R3, R2, #0
 		ADD R2, R1, #0
