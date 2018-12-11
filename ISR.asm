@@ -1,6 +1,6 @@
 ; ISR.asm
-; Name:
-; UTEid: 
+; Name: Ronak Patel & Ethan Golla
+; UTEid: rhp544 & emg2952
 ; Keyboard ISR runs when a key is struck
 ; Checks for a valid RNA symbol and places it at x4600
                .ORIG x2600
