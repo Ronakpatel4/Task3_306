@@ -77,7 +77,7 @@ stop		STI R2, ddr
 		TRAP x25
 run		STI R2, ddr
 		BRnzp repeat
-leta		.FILL x-41
+leta		.FILL x-41		; Initialize all the negative letters and polling addresses
 letc		.FILL x-43
 letg		.FILL x-47
 letu		.FILL x-55
