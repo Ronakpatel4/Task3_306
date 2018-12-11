@@ -22,13 +22,9 @@
 		AND R1, R1, #0
 		AND R2, R2, #0
 		AND R3, R3, #0
-<<<<<<< HEAD
-		AND R4, R4, #0		; Clearing registers, initialization 
-=======
 		AND R4, R4, #0		; Clearing registers, initialization
->>>>>>> cda4c2ed3aed2bec33689a7c358ca344b27a9969
 		STI R0, buffer		; Loop for checking new char in buffer
-loop		LDI R1, buffer
+loop		LDI R1, buffer		; Load character into R1
 		BRz loop		
 		STI R0, buffer
 		ADD R4, R3, #0
